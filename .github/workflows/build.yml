@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - ci/* # for ci test
+  workflow_dispatch:
   pull_request:
     branches:
       - main
