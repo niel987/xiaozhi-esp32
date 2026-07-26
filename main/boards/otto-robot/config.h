@@ -106,12 +106,12 @@ constexpr HardwareConfig NON_CAMERA_VERSION_CONFIG = {
     .power_adc_unit = ADC_UNIT_2,
     .power_adc_channel = ADC_CHANNEL_3,
 
-    .right_leg_pin = GPIO_NUM_39,
-    .right_foot_pin = GPIO_NUM_38,
-    .left_leg_pin = GPIO_NUM_17,
-    .left_foot_pin = GPIO_NUM_18,
-    .left_hand_pin = GPIO_NUM_8,
-    .right_hand_pin = GPIO_NUM_12,
+    .right_leg_pin = GPIO_NUM_13,
+    .right_foot_pin = GPIO_NUM_14,
+    .left_leg_pin = GPIO_NUM_27,
+    .left_foot_pin = GPIO_NUM_28,
+    .left_hand_pin = GPIO_NUM_47,
+    .right_hand_pin = GPIO_NUM_48,
 
     .audio_input_sample_rate = 16000,
     .audio_output_sample_rate = 24000,
