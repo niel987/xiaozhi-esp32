@@ -109,3 +109,13 @@ jobs:
           name: xiaozhi_${{ matrix.full_name }}_${{ github.sha }}
           path: build/merged-binary.bin
           if-no-files-found: error
+
+      - name: Cache ESP-IDF & Build Output
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.ccache
+            build/
+          key: ${{ runner.os }}-esp-idf-${{ hashFiles('**/CMakeLists.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-esp-idf-
