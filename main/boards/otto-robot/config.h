@@ -160,7 +160,7 @@ constexpr HardwareConfig NON_CAMERA_VERSION_CONFIG = {
 
 #define LCD_TYPE_ST7789_SERIAL
 #define DISPLAY_WIDTH 240
-#define DISPLAY_HEIGHT 280
+#define DISPLAY_HEIGHT 240
 #define DISPLAY_MIRROR_X false
 #define DISPLAY_MIRROR_Y false
 #define DISPLAY_SWAP_XY false
